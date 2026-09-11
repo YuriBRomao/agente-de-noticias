@@ -1,0 +1,46 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor e arquivos temporarios
+*.swp
+*.swo
+*~
+
+# Variaveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Builds e cobertura
+dist/
+build/
+coverage/
+
+# Caches e temporarios
+.cache/
+.tmp/
+tmp/
+
+# Configuracoes de IDE
+.idea/
+*.code-workspace
