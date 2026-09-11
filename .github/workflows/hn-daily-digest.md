@@ -8,6 +8,9 @@ permissions:
   issues: read
   pull-requests: read
   copilot-requests: write
+engine:
+  id: copilot
+  model: gpt-5
 tools:
   github:
     mode: gh-proxy
